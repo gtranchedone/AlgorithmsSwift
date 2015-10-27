@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Arrays'/>
+        <page name='Stacks'/>
+        <page name='Queues'/>
+        <page name='Bags'/>
+        <page name='ConvexHull'/>
+        <page name='Priority Queues'/>
+        <page name='Hash Maps'/>
+        <page name='Binary Trees'/>
+        <page name='Graphs'/>
+        <page name='Min and Max Flow'/>
+        <page name='Strings'/>
+        <page name='Tries'/>
+        <page name='Regular Expressions'/>
+        <page name='Notes'/>
+        <page name='Challenge - Ranges Intersection'/>
+        <page name='Challenge - Position of Element'/>
+        <page name='Challenge - Hanoi Tower'/>
+    </pages>
+</playground>
