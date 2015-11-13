@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
-        <page name='Arrays'/>
+        <page name='Sorting'/>
+        <page name='Merge Sort'/>
+        <page name='Quick Sort'/>
         <page name='Stacks'/>
         <page name='Queues'/>
         <page name='Bags'/>
@@ -17,6 +19,40 @@
         <page name='Notes'/>
         <page name='Challenge - Ranges Intersection'/>
         <page name='Challenge - Position of Element'/>
-        <page name='Challenge - Hanoi Tower'/>
+        <page name='Problem - Compute Power'/>
+        <page name='Problem - Convert base'/>
+        <page name='Problem - Dutch Flag'/>
+        <page name='Problem - Sample offline data'/>
+        <page name='Problem - Buy and Sell A Stock Once'/>
+        <page name='Problem - Buy and Sell A Stock Twice'/>
+        <page name='Problem - Interconvert Strings and Ints'/>
+        <page name='Problem - Merge Sorted Lists'/>
+        <page name='Problem - Max Stack'/>
+        <page name='Problem - Binary Tree Balance'/>
+        <page name='Probem - Merge Sorted Files'/>
+        <page name='Problem - Search First Occurrence'/>
+        <page name='Problem - Group Anagrams'/>
+        <page name='Problem - Intersection of Sorted Arrays'/>
+        <page name='Problem - Is Binary Tree a BST?'/>
+        <page name='Problem - Tower of Hanoi'/>
+        <page name='Problem - Count Score Combinations'/>
+        <page name='Problem - 3-sum'/>
+        <page name='Problem - Search a maze'/>
+        <page name='Problem - Spiral Ordering of 2D array'/>
+        <page name='Problem - Remove and Replace'/>
+        <page name='Problem - Mnemonics of Phone Number'/>
+        <page name='Problem - Reverse Singly Linked List'/>
+        <page name='Problem - Test for Cyclicity'/>
+        <page name='Problem - Binary Tree In Depth Order'/>
+        <page name='Problem - Binary Tree LCA'/>
+        <page name='Problem - Compute the k Closest Stars'/>
+        <page name='Problem - Compute Square of Int'/>
+        <page name='Problem - Anonymous Letter'/>
+        <page name='Problem - Book Cache'/>
+        <page name='Problem - Merge Sorted Arrays In Place'/>
+        <page name='Problem - Find first larger key in BST'/>
+        <page name='Problem - Find first k largest keys in BST'/>
+        <page name='Problem - Reverse String'/>
+        <page name='Problem - ListEvenOddMerge'/>
     </pages>
 </playground>

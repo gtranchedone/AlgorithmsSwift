@@ -30,7 +30,7 @@ func modifiedBinarySearch<T where T: Comparable>(array: [T], target: T) -> Int {
     var guess = 0
     
     while (min <= max) {
-        guess = Int(floor(Double(min + max) / 2.0))
+        guess = min + ((max - min) / 2)
         let guessedElement = array[guess]
         if guessedElement == target {
             return guess

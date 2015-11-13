@@ -6,18 +6,8 @@
 
 import Foundation
 
-// Let's define an unsorted array of Ints that will be used to execute all sorting algorithms explained in this page.
+//: Let's define an unsorted array of Ints that will be used to execute all sorting algorithms explained in this page.
 let unsortedArray = [4, 5, 3, 1, 2, 9, 7, 8, 6, 0]
-print("Unsorted Array \(unsortedArray)", terminator: "")
-
-//: Let's start by extending _ArrayType with a utility method to swap two items in the array for readability.
-extension _ArrayType {
-    
-    mutating func exchangeItemAtIndex(firstIndex: Int, withItemAtIndex secondIndex: Int) {
-        swap(&self[firstIndex], &self[secondIndex])
-    }
-    
-}
 
 //: ## Bubble Sort
 
@@ -50,14 +40,17 @@ print("Bubble Sort \(unsortedArray.bubbleSort())", terminator: "")
 extension _ArrayType where Generator.Element: Comparable {
     
     mutating func selectionSortInPlace() {
-        for i in 0..<count {
+        guard count > 1 else { return }
+        for i in 0 ..< (count - 1) {
             var min = i
-            for j in (i+1)..<count {
+            for j in (i + 1) ..< count {
                 if self[j] < self[min] {
                     min = j
                 }
             }
-            exchangeItemAtIndex(i, withItemAtIndex: min)
+            if min != i {
+                exchangeItemAtIndex(i, withItemAtIndex: min)
+            }
         }
     }
     
@@ -76,15 +69,13 @@ print("Selection Sort \(unsortedArray.selectionSort())", terminator: "")
 extension _ArrayType where Generator.Element: Comparable {
     
     mutating func insertionSortInPlace() {
-//        for i in 0..<count {
-//            var min = i
-//            for j in (i+1)..<count {
-//                if self[j] < self[min] {
-//                    min = j
-//                }
-//            }
-//            exchangeItemAtIndex(i, withItemAtIndex: min)
-//        }
+        for i in 0 ..< count {
+            for (var j = i; j > 0; j--) {
+                if self[j] < self[j-1] {
+                    exchangeItemAtIndex(j, withItemAtIndex: j-1)
+                }
+            }
+        }
     }
     
     func insertionSort() -> Self {
@@ -100,12 +91,6 @@ print("Insertion Sort \(unsortedArray.insertionSort())", terminator: "")
 //: ## Shell Sort
 
 func shellSort<T: Comparable>(anArray: Array<T>) {
-    
-}
-
-//: ## Merge Sort
-
-func mergeSort<T: Comparable>(anArray: Array<T>) {
     
 }
 

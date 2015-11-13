@@ -1,7 +1,20 @@
 //: [Previous](@previous)
+//: See implementation of PriorityQueue in the Playground's Sources folder
 
-import Foundation
+let items = [1, 4, 12, 2, 3, 4, 5, 11, 2, 5, 6, 7, 13, 15, 8, 9, 10, 14]
+let maxPriorityQueue = PriorityQueue<Int>(type: .Max)
+let minPriorityQueue = PriorityQueue<Int>(type: .Min)
+for item in items {
+    maxPriorityQueue.enqueue(item)
+    minPriorityQueue.enqueue(item)
+}
 
-var str = "Hello, playground"
+while !maxPriorityQueue.isEmpty {
+    print(maxPriorityQueue.dequeue()!)
+}
+
+while !minPriorityQueue.isEmpty {
+    minPriorityQueue.dequeue()
+}
 
 //: [Next](@next)
