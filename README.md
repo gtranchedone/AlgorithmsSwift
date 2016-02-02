@@ -1,6 +1,6 @@
-# AlgorithmsSwift
+# Algorithms and Data Structures in Swift
 
-This repository contains a *work in progress* *Xcode Playground* containing Data Structures, Algorithms
+This repository contains a *work in progress* **Xcode Playground** containing Data Structures, Algorithms
 and Programming Interviews code challenges implemented in the [Swift Programming Language](https://developer.apple.com/swift/).
 
 The goal of this repository is simply to collect the most famous Data Structures and Algorithms
